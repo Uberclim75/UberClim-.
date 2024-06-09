@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #fff;
+}
+
+header {
+    background-color: #03a9f4;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2em 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    border-radius: 10px;
+}
+
+form {
+    background: white;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.whatsapp-link {
+    background-color: #25D366;
+}
+
+.whatsapp-link:hover {
+    background-color: #1DA851;
+}
+
+.snapchat-link {
+    background-color: #FFFC00;
+    color: #000;
+}
+
+.snapchat-link:hover {
+    background-color: #E6E600;
+}
+
+.process {
+    background-color: #03a9f4;
+    padding: 2em;
+    border-radius: 10px;
+    color: white;
+    margin-top: 2em;
+}
+
+.process h2 {
+    text-align: center;
+}
+
+.process ul {
+    list-style: none;
+    padding: 0;
+}
+
+.process li {
+    margin: 1em 0;
+    padding-left: 1em;
+    position: relative;
+}
+
+.process li:before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.guarantee {
+    text-align: center;
+    margin-top: 1em;
+}

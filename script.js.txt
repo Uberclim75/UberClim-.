@@ -1,0 +1,5 @@
+document.getElementById('appointment-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Votre demande a été envoyée avec succès ! Nous vous contacterons bientôt.');
+    this.reset();
+});
